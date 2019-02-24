@@ -49,13 +49,16 @@ nav ul li {
 
 nav ul li a, a:hover, a:focus{
     color: #ffffff;
+    opacity: .6;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 
+
 /*nav ul li a:hover{
-    color: red;
+   
 }*/
 
 
@@ -72,6 +75,17 @@ nav ul li a, a:hover, a:focus{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.header-about-self .social-container {
+padding: 10px;
+}
+
+.header-about-self .social-container a .social-media{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5px;
+    opacity: .6;
 }
 
 #coding-img{
