@@ -1,22 +1,16 @@
 
-
-
 *{
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
+/* Navigation  Bar & Links */
 
-a{
-    text-decoration: none; 
-}
 nav ul li a{
     color: brown;
     text-decoration: none;
 }
-
-
 
 header{
     background-image: url('./siteIMG/HeaderImage.svg');
@@ -49,18 +43,13 @@ nav ul li {
 
 nav ul li a, a:hover, a:focus{
     color: #ffffff;
-    opacity: .6;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: bold;
 }
 
-
-/*nav ul li a:hover{
-   
-}*/
-
+/* Description and  Social Media - Icons*/
 
 .header-about-self{
     clear: both;
@@ -88,9 +77,32 @@ padding: 10px;
     opacity: .6;
 }
 
+
+/*  Font-Aweson Icon Hover Style */
+.header-about-self .social-container a .medium:hover{
+    background: black;
+    color: #ffffff;
+ 
+}
+
+.header-about-self .social-container a .linkedin:hover{
+    background: #007bb5;
+    color: #ffffff;
+ 
+}
+
+.header-about-self .social-container a .github:hover{
+    background: black;
+    color: #ffffff;
+ 
+}
+
+/* Coding Image on Header */
 #coding-img{
     width: 45%;
     position: absolute;
     bottom: 120px;
     right: 10px;
 }
+
+
