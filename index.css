@@ -41,7 +41,7 @@ nav ul li {
     padding: 10px;
 }
 
-nav ul li a, a:hover, a:focus{
+nav ul li .navlink, .navlink:hover, .navlink:focus{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -134,7 +134,9 @@ section{
 }
 
 #blog #blog-img-container{
-    padding-top:10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding:20px;
     width: 40%;
 }
 
@@ -145,4 +147,54 @@ section{
 #blog-desc{
     width: 50%;
     display: inline-block;
+    position: relative;
+    top: 30px;
+  
 }
+
+#blog-desc p{
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+}
+#blog-desc span{
+font-size: 12px;
+font-family: 'Open Sans', sans-serif;
+}
+
+#blog-desc .link-to-code-box{
+    padding-top: 10px;
+}
+
+.link-to-code{
+    padding: 10px;
+    background-color: #FD1015;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link-to-code:hover{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: .7;
+}
+
+.link-to-site{
+    padding: 10px;
+    background-color: #FD1015;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link-to-site:hover{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: .7;
+}
+
+
