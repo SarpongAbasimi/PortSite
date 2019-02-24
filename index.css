@@ -151,7 +151,7 @@ section{
     width: 50%;
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 70px;
 }
 
 #blog-desc p{
@@ -204,5 +204,6 @@ font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     opacity: .7;
 }
+
 
 
