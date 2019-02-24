@@ -8,10 +8,7 @@
   </defs>
   <g id="Group_27" data-name="Group 27" transform="translate(-146 -1209)">
     <path id="Path_145" data-name="Path 145" d="M33,0H704a33,33,0,0,1,33,33V655a33,33,0,0,1-33,33H33A33,33,0,0,1,0,655V33A33,33,0,0,1,33,0Z" transform="translate(146 1209)" fill="#e6e8ec" opacity="0.2"/>
-    <g id="Rectangle_105" data-name="Rectangle 105" transform="translate(146 1209)" fill="#65617d" stroke="#707070" stroke-width="1">
-      <rect width="737" height="51" rx="25.5" stroke="none"/>
-      <rect x="0.5" y="0.5" width="736" height="50" rx="25" fill="none"/>
-    </g>
+    <rect id="Rectangle_105" data-name="Rectangle 105" width="737" height="51" transform="translate(146 1209)" fill="#65617d"/>
     <circle id="Ellipse_17" data-name="Ellipse 17" cx="11" cy="11" r="11" transform="translate(183 1224)" fill="#fd1015"/>
     <circle id="Ellipse_18" data-name="Ellipse 18" cx="11" cy="11" r="11" transform="translate(226 1224)" fill="#f89c08"/>
     <circle id="Ellipse_19" data-name="Ellipse 19" cx="11" cy="11" r="11" transform="translate(269 1224)" fill="#0fdb2f"/>
