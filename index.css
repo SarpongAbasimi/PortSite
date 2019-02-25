@@ -128,6 +128,10 @@ section{
 
 /* Blog  Project style */
 
+#blog{
+    padding: 10px;
+}
+
 #blog .blog-div{
     display: inline-block;
 }
@@ -154,7 +158,8 @@ section{
 
 #blog-desc p{
 font-family: 'Open Sans', sans-serif;
-font-size: 25px;
+font-size: 20px;
+font-weight: lighter;
 }
 
 #blog-desc span{
@@ -205,6 +210,10 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* Personal Portfolio style*/
+#portfolio {
+
+    padding: 10px;
+}
 
 #portfolio .portfolio-div{
     display: inline-block;
@@ -219,7 +228,8 @@ font-family: 'Open Sans', sans-serif;
 
 #portfolio-desc p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #portfolio-desc span{
@@ -234,13 +244,17 @@ font-family: 'Open Sans', sans-serif;
 #portfolio #portfolio-img-container{
     width: 50%;
     position: relative;
-    bottom: 70px;
+    bottom: 20px;
 }
 #portfolio-img{
     width: 100%;
 }
 
 /* Facebook clone */
+#Facebook-clone {
+    padding: 10px;
+}
+
 #Facebook-clone .fb-div{
 display: inline-block;
 }
@@ -255,7 +269,7 @@ display: inline-block;
 #Facebook-clone #fb-img-container #fb-img{
     width: 100%;
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
 }
 
 #fb-desc{
@@ -266,7 +280,8 @@ display: inline-block;
 
 #fb-desc p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #fb-desc span{
@@ -280,6 +295,9 @@ display: inline-block;
 
 
 /* Movie site section */
+#movie-site{
+    padding: 10px;
+}
 
 #movie-site .movie-site-div{
     display: inline-block;
@@ -294,7 +312,8 @@ display: inline-block;
 
 #movie-desc p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #movie-desc span{
@@ -307,9 +326,9 @@ display: inline-block;
 }
 
 #movie-site #movie-site-img-container{
-    width: 50%;
+    width: 42%;
     position: relative;
-    bottom: 100px;
+    bottom: 30px;
     padding-left: 20px;
 }
 #movie-site-img{
