@@ -339,3 +339,28 @@ display: inline-block;
 }
 
 /* About Me section */
+#about-container{
+    padding: 20px;
+}
+#about-container #about-title{
+    background-color: #4B4848;
+    text-align: center;
+    padding: 5px;
+}
+
+#about-container #about-title h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+#about-container #about-info{
+    background-color: #ffffff;
+    text-align:left;
+    padding: 30px;
+}
+
+#about-container #about-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
