@@ -105,7 +105,6 @@ padding: 10px;
     right: 10px;
 }
 
-
 /* Projects section*/
 
 #projects{
@@ -113,7 +112,7 @@ padding: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 200vh;
+    height: 300vh;
 }
 
 section{
@@ -241,7 +240,6 @@ font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
 
-
 /* Facebook clone */
 #Facebook-clone .fb-div{
 display: inline-block;
@@ -279,3 +277,46 @@ display: inline-block;
 #fb-desc .link-to-code-box{
     padding-top: 10px;
 }
+
+
+/* Movie site section */
+
+#movie-site .movie-site-div{
+    display: inline-block;
+}
+
+#movie-desc{
+    width: 40%;
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+}
+
+#movie-desc p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+#movie-desc span{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#movie-desc .link-to-code-box{
+    padding-top: 10px;
+}
+
+#movie-site #movie-site-img-container{
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    padding-left: 20px;
+}
+#movie-site-img{
+    width: 100%;
+    -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.43);
+    box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.43);
+}
+
+/* About Me section */
