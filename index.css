@@ -46,7 +46,7 @@ nav ul li .navlink{
 }
 
 nav ul li .navlink:hover{
-    opacity: .1;
+    opacity: 1;
 }
 
 /* Description and  Social Media - Icons*/
