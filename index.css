@@ -7,11 +7,6 @@
 
 /* Navigation  Bar & Links */
 
-nav ul li a{
-    color: brown;
-    text-decoration: none;
-}
-
 header{
     background-image: url('./siteIMG/HeaderImage.svg');
     background-size: cover;
@@ -41,12 +36,17 @@ nav ul li {
     padding: 10px;
 }
 
-nav ul li .navlink, .navlink:hover, .navlink:focus{
+nav ul li .navlink{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    opacity: .5;
+   
+}
+
+nav ul li .navlink:hover{
+    opacity: .1;
 }
 
 /* Description and  Social Media - Icons*/
@@ -65,7 +65,26 @@ nav ul li .navlink, .navlink:hover, .navlink:focus{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    animation-name: introduction;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
 }
+
+
+@keyframes introduction{
+    0%{
+        opacity: .0;
+    }
+
+    50%{
+        opacity: .5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 
 .header-about-self .social-container {
 padding: 10px;
@@ -73,9 +92,28 @@ padding: 10px;
 
 .header-about-self .social-container a .social-media{
     color: black;
+    position: relative;
     font-size: 30px;
     padding: 5px;
     opacity: .4;
+    animation-name: socials;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+}
+
+@keyframes socials{
+
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.4;
+    }
 }
 
 
@@ -89,9 +127,9 @@ padding: 10px;
 
 /* Coding Image on Header */
 #coding-img{
-    width: 45%;
+    width: 50%;
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     right: 10px;
 }
 
