@@ -47,6 +47,18 @@ nav ul li .navlink{
 
 nav ul li .navlink:hover{
     opacity: 1;
+    animation-name: link-hover;
+    animation-duration: 2s;
+}
+
+@keyframes link-hover{
+    50%{
+        opacity: .4;
+        animation-timing-function: ease-in;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 /* Description and  Social Media - Icons*/
@@ -441,6 +453,7 @@ display: inline-block;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    opacity: .2;
 }
 
 #footer #footer-container #footerDiv a{
